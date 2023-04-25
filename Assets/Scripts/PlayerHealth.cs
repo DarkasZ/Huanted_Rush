@@ -10,11 +10,20 @@ public class PlayerHealth : MonoBehaviour
     public int currentHealth;
 
     public Health healthBar;
+    public Dead dead;
 
     void Start()
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+    }
+
+    public void Update() 
+    {
+        if(currentHealth <= 0)
+        {
+            dead.deadScene();
+        }
     }
 
     public void DamagePlayer(int Hurt, Vector3 direction)
