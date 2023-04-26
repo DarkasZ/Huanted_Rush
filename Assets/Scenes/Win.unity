@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.16788329, g: 0.21073541, b: 0.2899403, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -240,10 +240,10 @@ RectTransform:
   m_Father: {fileID: 262342000}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20.6637, y: 10.3318}
-  m_SizeDelta: {x: 1890.5645, y: 673.2813}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.002532959, y: 0.00050354004}
+  m_SizeDelta: {x: 0.0050049, y: 0.0010071}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &210431017
 MonoBehaviour:
@@ -393,7 +393,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 262341996}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a333c8e64e7e52468efdf2dda39a5bb, type: 3}
+  m_Script: {fileID: 11500000, guid: bb80934b9d6a9ad44b868529d42f02dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &682374098
@@ -433,7 +433,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.8392, y: -80.67841}
+  m_AnchoredPosition: {x: -0.000002861, y: -80.67841}
   m_SizeDelta: {x: 209.1961, y: 69.3569}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &682374100
@@ -481,7 +481,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 262342001}
-        m_TargetAssemblyTypeName: HOME, Assembly-CSharp
+        m_TargetAssemblyTypeName: sceneManager, Assembly-CSharp
         m_MethodName: goHome_youWeak
         m_Mode: 1
         m_Arguments:
